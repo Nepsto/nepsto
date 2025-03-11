@@ -1,0 +1,32 @@
+{
+  "name": "nepsto-theme",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "watch": "parcel watch src/styles/main.scss src/scripts/main.js --no-hmr --dist-dir assets",
+    "build": "parcel build src/styles/main.scss src/scripts/main.js --dist-dir assets",
+    "dev": "shopify theme dev --store=k40rqh-jg",
+    "dev:latest": "shopify theme pull --live --only */*.json --ignore=locales/*.json --store=k40rqh-jg && shopify theme metafields pull --store=k40rqh-jg && shopify theme dev --store=k40rqh-jg"
+  },
+  "author": "BlackLemon",
+  "dependencies": {
+    "@parcel/config-default": "^2.8.2",
+    "@parcel/namer-default": "^2.8.2",
+    "@popperjs/core": "^2.11.8",
+    "@relewise/client": "^2.4.0",
+    "@shopify/cli": "^3.72.1",
+    "axios": "^1.4.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.2",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "parcel": "^2.8.2",
+    "parcel-namer-assets": "file:./packages/parcel-namer-assets"
+  }
+}

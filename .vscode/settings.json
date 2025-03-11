@@ -1,15 +1,17 @@
 {
-  "editor.formatOnSave": false,
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.formatOnSave": true
-  },
+  "editor.formatOnSave": true,
+  "files.autoSave": "off",
+  "files.eol": "\n",
   "[liquid]": {
-    "editor.defaultFormatter": "Shopify.theme-check-vscode",
-    "editor.formatOnSave": true
+    "editor.defaultFormatter": "Shopify.theme-check-vscode"
   },
-  "themeCheck.checkOnSave": true
+  "themeCheck.checkOnSave": true,
+  "themeCheck.onlySingleFileChecks": true,
+  "prettier.singleQuote": true,
+  "files.associations": {
+    "*.liquid": "liquid"
+  },
+  "editor.tabSize": 2,
+  "prettier.printWidth": 10000,
+  "prettier.bracketSameLine": true
 }

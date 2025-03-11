@@ -1,0 +1,16 @@
+{
+  "name": "parcel-namer-assets",
+  "version": "0.1.0",
+  "description": "Parcel plugin x",
+  "main": "src/ParcelNamer.js",
+  "devDependencies": {},
+  "dependencies": {
+    "@parcel/plugin": "^2.8.0"
+  },
+  "engines": {
+    "parcel": "^2.8.0"
+  },
+  "files": [
+    "src/*.js"
+  ]
+}
