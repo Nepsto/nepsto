@@ -2,7 +2,7 @@ name: Merge to staging
 
 on:
   push:
-    branches: ["main"]
+    branches: ["customizations"]
 
 jobs:
   merge_to_staging:
