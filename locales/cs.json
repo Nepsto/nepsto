@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -547,6 +556,26 @@
       "send_on_label": "Datum odeslání (volitelné)",
       "expanded": "Formulář pro příjemce dárkové karty se rozbalil.",
       "collapsed": "Formulář pro příjemce dárkové karty se sbalil."
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "general": {
+        "errors": {
+          "payment": {
+            "shop_cash_not_found": "Obchod Cash nebyl nalezen."
+          }
+        }
+      },
+      "b2b_errors": {
+        "lost_b2b_purchasing_permissions": "Již nemáte oprávnění zadávat B2B objednávky. %{logout_url} pro osobní objednávku.",
+        "log_out_link_text": "Odhlaste se"
+      }
+    }
+  },
+  "customer_accounts": {
+    "shop_ads": {
+      "title": "Exkluzivní nabídky od Shopu"
     }
   }
 }
