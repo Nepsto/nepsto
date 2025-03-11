@@ -15,10 +15,7 @@
   "dependencies": {
     "@parcel/config-default": "^2.8.2",
     "@parcel/namer-default": "^2.8.2",
-    "@popperjs/core": "^2.11.8",
-    "@relewise/client": "^2.4.0",
     "@shopify/cli": "^3.72.1",
-    "axios": "^1.4.0",
     "prettier": "^3.0.0"
   },
   "devDependencies": {
