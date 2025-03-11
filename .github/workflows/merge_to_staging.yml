@@ -11,4 +11,4 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Merge to staging
-        uses: nepsto/actions/push-to-staging@main
+        uses: Nepsto/actions/push-to-staging@main

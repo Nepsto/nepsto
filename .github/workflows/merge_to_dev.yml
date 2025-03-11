@@ -10,7 +10,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Merge to development
-        uses: nepsto/actions/push-to-development@main
+        uses: Nepsto/actions/push-to-development@main
 
   comment:
     needs: merge_to_development
