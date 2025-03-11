@@ -10,6 +10,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Build parcel
-        uses: Earli-Days/actions/deploy@main
+        uses: nepsto/actions/deploy@main
         with:
-          message: "dk"
+          message: 'int'
