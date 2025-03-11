@@ -1,0 +1,24 @@
+name: development preview
+on:
+  pull_request:
+    types: [labeled, opened, synchronize, reopened]
+jobs:
+  merge_to_development:
+    if: contains(github.event.pull_request.labels.*.name, 'preview')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Merge to development
+        uses: nepsto/actions/push-to-development@main
+
+  comment:
+    needs: merge_to_development
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: mshick/add-pr-comment@v2
+        with:
+          message: |
+            **A preview can be viewed via the following url: ${{ secrets.DOMAIN }}!! <br> development preview: ${{ secrets.DEV_URL }} <br> editor preview: ${{ secrets.EDITOR_URL }}**

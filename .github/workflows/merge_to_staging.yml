@@ -1,0 +1,14 @@
+name: Merge to staging
+
+on:
+  push:
+    branches: ["customizations"]
+
+jobs:
+  merge_to_staging:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Merge to staging
+        uses: nepsto/actions/push-to-staging@main
