@@ -10,6 +10,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Build parcel
-        uses: Nepsto/actions/deploy
+        uses: Nepsto/actions/deploy@main
         with:
           message: 'int'
