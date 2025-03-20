@@ -3,7 +3,7 @@ name: Caching with npm
 on:
   workflow_call:
   push:
-    branches: ["main", "development", "production"]
+    branches: ["customizations", "development", "production"]
 
 jobs:
   build:
