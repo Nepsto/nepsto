@@ -2,6 +2,7 @@
   "name": "nepsto-theme",
   "version": "1.0.0",
   "private": true,
+  "author": "Yogesh",
   "workspaces": [
     "packages/*"
   ],
@@ -11,7 +12,6 @@
     "dev": "shopify theme dev --store=k40rqh-jg",
     "dev:latest": "shopify theme pull --live --only */*.json --ignore=locales/*.json --store=k40rqh-jg && shopify theme metafields pull --store=k40rqh-jg && shopify theme dev --store=k40rqh-jg"
   },
-  "author": "Yogesh",
   "dependencies": {
     "@parcel/config-default": "^2.8.2",
     "@parcel/namer-default": "^2.8.2",
