@@ -15,7 +15,6 @@
   "dependencies": {
     "@parcel/config-default": "^2.8.2",
     "@parcel/namer-default": "^2.8.2",
-    "@shopify/cli": "^3.74.1",
     "prettier": "^3.0.0"
   },
   "devDependencies": {
