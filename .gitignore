@@ -1,5 +1,4 @@
 config.yml
-config/settings_data.json
 backups/*
 
 templates/robots.txt.liquid
